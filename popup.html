@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DownloadTime</title>
+</head>
+<body>
+    <div class="cont">
+        <h1 class="text">Myte DownloadTime Calculator</h1>
+        <div class="inputs">
+            <input type="number" id="speed" placeholder="Download Speed...">
+            <select id="mbps" class="combo">
+                <option>MBps</option>
+                <option>Mbps</option>
+            </select>
+        </div>
+        <div class="inputs" style="margin-top: 20px;">
+            <input type="number" id="file" placeholder="File Size...">
+            <select id="gb" class="combo">
+                <option>GB</option>
+                <option>MB</option>
+            </select>
+            <br>
+            <button id="press" class="calc">Calculate</button>
+            <div id="result" class="result text"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

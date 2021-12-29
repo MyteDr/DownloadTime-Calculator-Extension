@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.cont{
+    width: 600px;
+    height: 331px;
+    background:linear-gradient(90deg,#52FFE5 ,#DAF7A6);
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.inputs{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputs input{
+    color: white;
+    font-weight: 900;
+    margin-left: 63px;
+    width: 365px;
+    height: 30px;
+    border: 1px solid gray;
+    background: transparent;
+    border-radius: 15px;
+    text-align: center;
+}
+.inputs input:focus{
+    border: 1px solid gray;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+}
+.calc{
+    font-weight: 900;
+    color: white;
+    font-size: 17px;
+    background: transparent;
+    user-select: none;
+    border: 1px solid salmon;
+    margin-top: 20px;
+    padding-top: 2px;
+    width: 365px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color ease-in 300ms;
+}
+.calc:hover{
+    background-color: salmon;
+}
+.result{
+    margin-right: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.combo{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+.combo:focus{
+    outline: none;
+}
