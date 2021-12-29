@@ -69,6 +69,8 @@
     color: gray;
 }
 .combo{
+    font-size: 10px;
+    font-weight: 900;
     width: 60px;
     height: 30px;
     border-radius: 10px;
