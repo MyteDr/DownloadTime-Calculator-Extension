@@ -4,7 +4,7 @@ $(document).ready(function(){
             alert('Please Do Not Leave The Field Blank!');
         }
         else{
-            $('#gb').val()=='GB' ? ($('#mbps').val()=='MB/sec' ? calc(file.value,speed.value,true,true) : calc(file.value,speed.value,true,false)):($('#mbps').val()=='MB/sec' ? calc(file.value,speed.value,false,true):calc(file.value,speed.value,false,false));
+            $('#gb').val()=='GB' ? ($('#mbps').val()=='MB/sec' ? calc($('#file').val(),$('#speed').val(),true,true) : calc($('#file').val(),$('#speed').val(),true,false)):($('#mbps').val()=='MB/sec' ? calc($('#file').val(),$('#speed').val(),false,true):calc($('#file').val(),$('#speed').val(),false,false));
         }
     });
 });
